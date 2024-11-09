@@ -28,7 +28,6 @@ export const useCalculator = ()=>{
     },[number])
     
     useEffect(()=>{
-        // TODO: calcular subresultado
         const subResult = claculateResult()
         setPrevNumber(`${subResult}`)
     },[formula])
