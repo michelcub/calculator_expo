@@ -47,7 +47,8 @@ export const globalStyles = StyleSheet.create({
         padding: 10,
         fontFamily: 'SpaceMono',
         color: Colors.textPrimary,
-        fontWeight: '300'
+        fontWeight: '300',
+        fontSize: 30
     }
 
 })
